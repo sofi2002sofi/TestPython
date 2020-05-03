@@ -89,6 +89,6 @@ class ShoppingManagerUtil:
 
 if __name__ == '__main__':
     #doctest.testmod(verbose=True, extraglobs={'object_shopping_manager_util': ShoppingManagerUtil()})
-    doctest.testmod(verbose=True, extraglobs={"shoes": [Boots(39, 1599.0, "winter", Sex.FEMALE, "Ecco", "black", "leather", "wool", "oval", 27.5),
-                     Pumps(38, 600.0, "classic", Sex.FEMALE, "Ecco", "red", "leather", "leather", "oval", DegreeOfOpenness.MIX),
-                     Sneakers(41, 789.9, "summer", Sex.MALE, "Adidas", "blue", "cotton", "cotton", "oval", True, Specification.FOR_TRAINING)]})
+    doctest.testmod(verbose=True, extraglobs={"shoes": [Boots(39, 1599.0, "winter", Sex.FEMALE, "Ecco", "black", "leather", "wool", "oval", 27.5), \
+Pumps(38, 600.0, "classic", Sex.FEMALE, "Ecco", "red", "leather", "leather", "oval", DegreeOfOpenness.MIX), \
+Sneakers(41, 789.9, "summer", Sex.MALE, "Adidas", "blue", "cotton", "cotton", "oval", True, Specification.FOR_TRAINING)]})
